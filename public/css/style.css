@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+      h1,h2,p{
+        margin: 0;
+      }
+    
+      h1{
+        font-weight: lighter;
+        font-size: 25px;
+      }
+    
+      .cardtitle {
+        font-family: 'Bitter', serif;
+        font-weight: bold;
+      }
+    
+      p {
+        font-family: 'Lato', sans-serif;
+        display: inline-block;
+        margin: 5px 1px;
+        font-size: 15px;
+      }
+    
+      #card {
+        border: solid 2px #000;
+        border-radius: 10px;
+        box-shadow: 1px 2px 10px #000;
+        background-color: #E9EEF2;
+        margin: auto;
+        width:50%
+      }
+    
+      #card-title {
+        padding: 5px;
+        color: #fff;
+        letter-spacing: 2px;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: #2C6C73;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+      }
+    
+      #card-id {
+        padding: 5px;
+        display: flex;
+      }
+    
+      #card-number{
+        display: inherit;
+        margin-right: 50px;
+      }
+    
+      #card-information {
+        display: flex;
+        padding: 5px;
+      }
+    
+      #card-photo {
+        background: url() no-repeat;
+        background-position: center;
+        background-repeat: none;
+        border: solid 2px #000;
+        height: 200px;
+        width: 150px;
+      }
+    
+      #card-photo img{
+        width:150px;
+        height:200px;
+      }
+    
+      #card-detail {
+        display: flex;
+    
+      }
+    
+      .card-box {
+        margin-right: 20px;
+      }
+    
+      #card-code {
+        padding: 5px;
+        background-color: #fff;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
